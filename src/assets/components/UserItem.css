@@ -1,0 +1,44 @@
+.user-item {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+    transition: transform 0.2s;
+  }
+  
+  /* .user-item:hover {
+    transform: translateY(-10px);
+  } */
+  
+  .user-item figure {
+    margin: 0;
+  }
+  
+  .user-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .item-info {
+    padding: 16px;
+    text-align: left;
+  }
+  
+  .item-info h2 {
+    margin: 0 0 8px;
+    font-size: 1.2em;
+  }
+  
+  .item-info h3 {
+    margin: 0 0 4px;
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .item-info p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #888;
+  }
