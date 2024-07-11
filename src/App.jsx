@@ -6,7 +6,7 @@ function App() {
   const [users, setUsers] = useState([]);
 
   const getData = async () => {
-    const rs = await fetch('https://jsonplaceholder.typicode.com/users '); // Asegúrate de que la URL sea correcta
+    const rs = await fetch('https://jsonplaceholder.typicode.com/users '); 
     const rsJson = await rs.json();
     setUsers(rsJson);
 
