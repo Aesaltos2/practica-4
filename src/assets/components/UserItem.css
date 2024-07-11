@@ -7,9 +7,9 @@
     transition: transform 0.2s;
   }
   
-  /* .user-item:hover {
+  .user-item:hover {
     transform: translateY(-10px);
-  } */
+  }
   
   .user-item figure {
     margin: 0;
@@ -34,7 +34,7 @@
   .item-info h3 {
     margin: 0 0 4px;
     font-size: 1em;
-    color: #555;
+    /* color: #555; */
   }
   
   .item-info p {

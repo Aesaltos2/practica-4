@@ -1,6 +1,8 @@
 .user-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: left;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 2fr)); 
+  gap: 40px;
+  margin: 60px;
+  justify-items: start; 
   }
+
